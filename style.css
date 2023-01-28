@@ -1,0 +1,87 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+
+    padding: 10px;
+    font-family: 'Sitka Banner';
+}
+
+img {
+    height: 100px;
+    margin: 0 auto;
+    display: block;
+}
+span{
+    background-color: lightyellow;
+}
+
+table,th,td{
+    border:1px solid rgb(218, 222, 226);
+    border-collapse:collapse ;
+    /* width:100% */
+}
+th{
+    text-align: left;
+}
+th, td{
+    border-collapse: collapse;
+    width: 500px;
+    padding: 5px 0px 5px 10px;
+}
+
+hr {
+    border: 0px;
+    box-shadow: 0px 0px 0px 0.5px #eaeaea;
+}
+
+select {
+    margin-left: 4px;
+}
+
+#box1{
+    border: 0ch black;
+    padding: 15px;
+    background-color: #eee;
+}
+#box2{
+    border: 0ch black;
+    padding: 15px;
+    background-color:#eee;
+}
+
+dd {
+    margin-left: 0;
+    margin-bottom: 24px;
+}
+
+div .form{
+    border: 0ch solid black;
+    text-align: right;
+}
+
+a:visited, a:hover {
+    color: #0000ee;
+}
+
+
+form{
+    display: block;
+    
+    /* align-items: right; */
+   
+    
+}
+form input, textarea {
+    margin-bottom: 8px;
+}
+
+footer{
+    border: 1cm solid lightgray;
+    background-color: lightgray;
+    text-align: center;
+}
+
+button {
+    margin-bottom: 16px;
+}
